@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.4.9 (TBA)
+
+### Enhancements
+
+* [`PowAssent.Phoenix.ViewHelpers`] `PowAssent.Phoenix.ViewHelpers.authorization_link/3` now accepts block argument
+* [`PowAssent.Phoenix.ViewHelpers`] `PowAssent.Phoenix.ViewHelpers.deauthorization_link/3` now accepts block argument
+
 ## v0.4.8 (2020-05-18)
 
 ### Enhancements
