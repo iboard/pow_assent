@@ -16,6 +16,10 @@
 
 Now support Phoenix 1.5 and requires Pow `~> 1.0.19` and Elixir 1.7.
 
+### Enhancements
+
+* [`PowAssent.Plug`] `PowAssent.Plug.callback/4` now adds the `userinfo` with claims to the user identity params
+
 ## v0.4.6 (2020-02-16)
 
 The callback flow has been changed so sessions are now stored in the backend cache with `PowAssent.Store.SessionCache` instead of using `Plug.Session`. This prevents exposure of sensitive data, as the only thing stored in the Plug session is a random UUID.
