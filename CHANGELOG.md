@@ -6,6 +6,7 @@
 
 * [`PowAssent.Phoenix.ViewHelpers`] `PowAssent.Phoenix.ViewHelpers.authorization_link/3` now accepts block argument
 * [`PowAssent.Phoenix.ViewHelpers`] `PowAssent.Phoenix.ViewHelpers.deauthorization_link/3` now accepts block argument
+* [`PowAssent.Phoenix.ViewHelpers`] `PowAssent.Phoenix.ViewHelpers.authorization_links/2` now accepts link options or callback method as second argument
 
 ## v0.4.8 (2020-05-18)
 
