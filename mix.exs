@@ -31,20 +31,16 @@ defmodule PowAssent.MixProject do
 
   defp deps do
     [
-      {:pow, "~> 1.0.19"},
+      {:pow, git: "https://github.com/iboard/pow.git"},
       {:assent, "~> 0.1.2"},
-
       {:ecto, "~> 2.2 or ~> 3.0"},
       {:phoenix, ">= 1.3.0 and < 1.6.0"},
       {:phoenix_html, ">= 2.0.0 and <= 3.0.0"},
       {:plug, ">= 1.5.0 and < 2.0.0", optional: true},
-
       {:phoenix_ecto, "~> 4.0.0", only: [:dev, :test]},
       {:credo, "~> 1.1.0", only: [:dev, :test]},
       {:jason, "~> 1.0", only: [:dev, :test]},
-
       {:ex_doc, "~> 0.21.0", only: :dev},
-
       {:ecto_sql, "~> 3.1", only: :test},
       {:postgrex, "~> 0.14.0", only: :test},
       {:bypass, "~> 1.0.0", only: :test}
@@ -78,7 +74,7 @@ defmodule PowAssent.MixProject do
         "guides/set_up_pow.md": [],
         "guides/capture_access_token.md": [],
         "guides/legacy_migration.md": [],
-        "guides/api.md": [],
+        "guides/api.md": []
       ],
       groups_for_modules: [
         Ecto: ~r/^PowAssent.Ecto/,
